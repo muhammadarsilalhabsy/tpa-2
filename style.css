@@ -1,0 +1,67 @@
+body {
+    font-family: 'Bree Serif', serif;
+    background-color: rgb(212, 212, 212);
+}
+.container {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    margin: 0 auto;
+    border-radius: 20px;
+    position: relative;  
+    background-color: #fff; 
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container p {
+    text-align: center;
+}
+.table {
+    margin: 30px 50px;
+}
+input {
+    width: 90%;
+    padding: 10px 10px;
+    display: block;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+input:focus {
+    outline: none !important;
+    border:2px solid #59ce8f;
+    box-shadow: 0 0 10px #719ECE;
+}
+label{
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+button {
+    font-weight: 700;
+    padding: 10px 12px;
+    border: 2px solid #272727;
+    border-radius: 20px;
+    outline: none;
+    font-size: 18px;
+    color: #272727;
+    cursor: pointer;
+    transition: all 0.5s;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 120px;
+    background-color: white;
+    box-shadow: 0 0 10px #719ECE;
+}
+button:hover {
+    border: 2px solid #59ce8f;
+    background-color: #59ce8f;
+    color: white;
+}
+
+#resultBMI {
+    margin-top: 120px;
+    text-align: center;
+}
