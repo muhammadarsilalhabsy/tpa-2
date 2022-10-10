@@ -18,12 +18,14 @@ body {
 
 .container p {
     text-align: center;
+    font-size: 18px;
 }
+
 .table {
-    margin: 30px 50px;
+    margin: 30px 30px;
 }
 input {
-    width: 100%;
+    width: 95%;
     padding: 10px 10px;
     display: block;
     border: 1px solid rgb(201, 201, 201);
@@ -40,7 +42,7 @@ button {
     font-size: 18px;
     color: #fff;
     cursor: pointer;
-    margin-top: 30px;
+    margin-top: 40px;
     background-color: #6558f5;
     border-radius: 5px;
     border: none;
