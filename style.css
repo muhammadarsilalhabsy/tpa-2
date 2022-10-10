@@ -1,11 +1,10 @@
 body {
-    font-family: 'Bree Serif', serif;
+    font-family: 'Times New Roman', Times, serif;
     background-color: rgb(212, 212, 212);
 }
 .container {
     width: 500px;
     height: 500px;
-    border: 2px solid black;
     margin: 0 auto;
     border-radius: 20px;
     position: relative;  
@@ -14,6 +13,7 @@ body {
 
 .container h1 {
     text-align: center;
+    padding-top: 20px;
 }
 
 .container p {
@@ -23,17 +23,12 @@ body {
     margin: 30px 50px;
 }
 input {
-    width: 90%;
+    width: 100%;
     padding: 10px 10px;
     display: block;
-    border-radius: 10px;
-    transition: 0.5s;
+    border: 1px solid rgb(201, 201, 201);
 }
-input:focus {
-    outline: none !important;
-    border:2px solid #59ce8f;
-    box-shadow: 0 0 10px #719ECE;
-}
+
 label{
     display: inline-block;
     margin-top: 20px;
@@ -42,26 +37,23 @@ label{
 button {
     font-weight: 700;
     padding: 10px 12px;
-    border: 2px solid #272727;
-    border-radius: 20px;
-    outline: none;
     font-size: 18px;
-    color: #272727;
+    color: #fff;
     cursor: pointer;
-    transition: all 0.5s;
-    position: absolute;
-    margin-top: 40px;
-    margin-left: 120px;
-    background-color: white;
-    box-shadow: 0 0 10px #719ECE;
-}
-button:hover {
-    border: 2px solid #59ce8f;
-    background-color: #59ce8f;
-    color: white;
+    margin-top: 30px;
+    background-color: #6558f5;
+    border-radius: 5px;
+    border: none;
 }
 
 #resultBMI {
-    margin-top: 120px;
-    text-align: center;
+    margin-top: 40px;
+    /* text-align: center; */
+}
+#resultBMI p {
+    font-size: 18px;
+}
+
+#resultBMI span {
+    font-weight: bold;
 }

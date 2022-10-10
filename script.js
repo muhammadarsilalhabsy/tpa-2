@@ -25,13 +25,13 @@ function calculateBMI (){
 
     if (!isNaN(getBB) && !isNaN(getTB)){
         if(fixResult >= 30){
-            desc = `Your BMI is ${fixResult} which means Your are Obesity`;
+            desc = `Your BMI is <span>${fixResult}</span> which means Your are <span>Obesity</span>`;
         }else if (fixResult >= 18.5 || fixResult <= 24.8){
-            desc = `Your BMI is ${fixResult} which means Your are Normal`;
+            desc = `Your BMI is <span>${fixResult}</span> which means Your are <span>Normal</span>`;
         }else if (fixResult >= 25 || fixResult <= 29.9){
-            desc = `Your BMI is ${fixResult} which means Your are Overweight`;
+            desc = `Your BMI is <span>${fixResult}</span> which means Your are <span>Overweight</span>`;
         }else {
-            desc = `Your BMI is ${fixResult} which means Your are Underweight`;
+            desc = `Your BMI is <span>${fixResult}</span> which means Your are <span>Underweight</span>`;
         }
         getDivResult.innerHTML = desc;
     }else {
